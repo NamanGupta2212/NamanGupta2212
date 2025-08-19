@@ -1,18 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Naman Gupta - Portfolio</title>
+<style>
+  :root { --bg:#000000; --muted:#111111; --text:#FFFFFF; --sub:#D9D9D9; --line:#333333; --accent:#1F4E79; --accent-2:#D9D9D9; --link:#1F4E79; --link-hover:#FFFFFF; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu; }
+  .wrap { max-width:1100px; margin:0 auto; padding:24px; }
+  header { position:sticky; top:0; backdrop-filter:saturate(1.1) blur(8px); background:rgba(10,10,10,0.7); border-bottom:1px solid var(--line); }
+  nav a { color:#cfcfcf; text-decoration:none; margin-right:16px; }
+  nav a:hover { color:white; }
+  .grid { display:grid; gap:16px; }
+  .two { grid-template-columns:1.2fr 1fr; }
+  .card { background:var(--muted); border:1px solid var(--line); border-radius:16px; padding:16px; }
+  .pill { display:inline-block; padding:6px 10px; border-radius:999px; background:#141414; border:1px solid var(--line); margin:4px 6px 0 0; color:#d4d4d4; font-size:14px; }
+  h1 { font-size:42px; margin:8px 0; } h2 { font-size:22px; margin:0; } h3 { font-size:18px; margin:0; }
+  .sub { color:var(--sub); } .btn { display:inline-block; padding:10px 14px; border-radius:14px; border:1px solid var(--line); color:#111; background:white; text-decoration:none; font-weight:600; }
+  .btn.outline { background:#0a0a0a; color:#e5e5e5; } .stack { display:flex; gap:10px; flex-wrap:wrap; }
+  footer { margin-top:32px; padding-top:24px; border-top:1px solid var(--line); color:#9ca3af; font-size:14px; }
+  ul li { margin:6px 0; }
+  @media (max-width: 880px) { .two { grid-template-columns:1fr; } }
+
+  nav a { color:#cfcfcf; text-decoration:none; margin-right:16px; transition:color .2s ease; }
+  nav a:hover { color:var(--link); }
+  .card { background:var(--muted); border:1px solid var(--line); border-radius:16px; padding:16px; }
+  .pill { display:inline-block; padding:6px 10px; border-radius:999px; background:linear-gradient(180deg, #141414 0%, #0f0f10 100%); border:1px solid var(--line); margin:4px 6px 0 0; color:#dcdcdc; font-size:14px; }
+  h2 { color:#ededed; border-bottom:1px solid var(--line); padding-bottom:6px; }
+  #proofs a { color:#93c5fd; }
+  #proofs a:hover { color:#ffffff; text-decoration:underline; }
+  .btn { display:inline-block; padding:10px 14px; border-radius:14px; border:1px solid var(--line); color:#111; background:linear-gradient(180deg, #ffffff, #eaeaea); text-decoration:none; font-weight:600; transition:transform .15s ease, box-shadow .15s ease; }
+  .btn:hover { transform:translateY(-1px); box-shadow:0 6px 20px rgba(0,0,0,.35); }
+  .btn.outline { background:#0a0a0a; color:#e5e5e5; border-color:#353535; }
+  .btn.outline:hover { color:#fff; border-color:var(--link); }
+  /* Compact sections for later content */
+  section.compact { padding-top:8px; }
+  section.compact .grid { gap:12px; }
+  section.compact .card { padding:12px; border-radius:12px; }
+  section.compact .card .sub, section.compact .sub { font-size:14px; }
+    
+a { color:#93c5fd; }
+a:hover { color:#ffffff; text-decoration:underline; }
+</style>
+</head>
+<body>
+<header>
+<div class="wrap" style="display:flex; align-items:center; justify-content:space-between; padding:14px 24px;">
+<div style="font-weight:700;">Naman Gupta</div>
+<nav>
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a>
+<a href="#leadership">Leadership</a><a href="#community">Community</a><a href="#education">Education</a><a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
 <main class="wrap">
 <section class="grid two" id="about" style="margin-top:28px;">
 <div>
 <h1>Naman Gupta</h1>
-<a class="btn" href="https://drive.google.com/file/d/1x7B5a0_0-VEo-FI3pFj9lrV4G9O2bp2U/view?usp=drive_link" target="_blank">Download Resume | </a>
-<a class="btn outline" href="mailto:2003guptanaman@gmail.com">2003guptanaman@gmail.com | </a>
-<a class="btn outline" href="tel:‪+919625947054‬">‪+91 9625947054‬</a>
-<br>
-<a href="#about">About |</a><a href="#skills"> Skills | </a><a href="#experience"> Experience | </a><a href="#projects"> Projects | </a><a href="#leadership"> Leadership | </a><a href="#community"> Community | </a><a href="#education"> Education | </a><a href="#contact"> Contact</a>
-<hr>
-<br>
-
-<div class="sub" style="font-size:22px;"><b>Financial / Actuarial Analyst</b></div>
+<div class="sub" style="font-size:18px;">Financial / Actuarial Analyst</div>
 <p class="sub">Results-driven Finance &amp; Investment graduate with strengths in data analytics, financial modelling, risk management, and equity research. Passionate about turning data into actionable decisions.</p>
-
+<div class="stack" style="margin-top:10px;">
+<a class="btn" href="https://drive.google.com/file/d/1x7B5a0_0-VEo-FI3pFj9lrV4G9O2bp2U/view?usp=drive_link" target="_blank">Download Resume</a>
+<a class="btn outline" href="mailto:2003guptanaman@gmail.com">2003guptanaman@gmail.com</a>
+<a class="btn outline" href="tel:+919625947054">+91 96259 47054</a>
+</div>
 </div>
 <div class="card">
 <h3>Actuarial Progress</h3>
@@ -90,3 +143,4 @@
 <div>© 2025 Naman Gupta</div>
 </footer>
 </body>
+</html>

@@ -1,16 +1,8 @@
-<header>
-<div class="wrap" style="display:flex; align-items:center; justify-content:space-between; padding:14px 24px;">
-<div style="font-weight:700;">Naman Gupta</div>
-<nav>
-<a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a>
-<a href="#leadership">Leadership</a><a href="#community">Community</a><a href="#education">Education</a><a href="#contact">Contact</a>
-</nav>
-</div>
-</header>
 <main class="wrap">
 <section class="grid two" id="about" style="margin-top:28px;">
 <div>
 <h1>Naman Gupta</h1>
+<a href="#about">About |</a><a href="#skills"> Skills | </a><a href="#experience"> Experience | </a><a href="#projects"> Projects | </a><a href="#leadership"> Leadership | </a><a href="#community"> Community | </a><a href="#education"> Education | </a><a href="#contact"> Contact | </a>
 <div class="sub" style="font-size:18px;">Financial / Actuarial Analyst</div>
 <p class="sub">Results-driven Finance &amp; Investment graduate with strengths in data analytics, financial modelling, risk management, and equity research. Passionate about turning data into actionable decisions.</p>
 <div class="stack" style="margin-top:10px;">

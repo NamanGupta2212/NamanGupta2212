@@ -2,14 +2,14 @@
 <section class="grid two" id="about" style="margin-top:28px;">
 <div>
 <h1>Naman Gupta</h1>
-<a href="#about">About |</a><a href="#skills"> Skills | </a><a href="#experience"> Experience | </a><a href="#projects"> Projects | </a><a href="#leadership"> Leadership | </a><a href="#community"> Community | </a><a href="#education"> Education | </a><a href="#contact"> Contact | </a>
-<div class="sub" style="font-size:18px;">Financial / Actuarial Analyst</div>
-<p class="sub">Results-driven Finance &amp; Investment graduate with strengths in data analytics, financial modelling, risk management, and equity research. Passionate about turning data into actionable decisions.</p>
-<div class="stack" style="margin-top:10px;">
 <a class="btn" href="https://drive.google.com/file/d/1x7B5a0_0-VEo-FI3pFj9lrV4G9O2bp2U/view?usp=drive_link" target="_blank">Download Resume</a>
 <a class="btn outline" href="mailto:2003guptanaman@gmail.com">2003guptanaman@gmail.com</a>
 <a class="btn outline" href="tel:‪+919625947054‬">‪+91 96259 47054‬</a>
-</div>
+<br>
+<a href="#about">About |</a><a href="#skills"> Skills | </a><a href="#experience"> Experience | </a><a href="#projects"> Projects | </a><a href="#leadership"> Leadership | </a><a href="#community"> Community | </a><a href="#education"> Education | </a><a href="#contact"> Contact | </a>
+<div class="sub" style="font-size:20px;"><b>Financial / Actuarial Analyst</b></div>
+<p class="sub">Results-driven Finance &amp; Investment graduate with strengths in data analytics, financial modelling, risk management, and equity research. Passionate about turning data into actionable decisions.</p>
+
 </div>
 <div class="card">
 <h3>Actuarial Progress</h3>
